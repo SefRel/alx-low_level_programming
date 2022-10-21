@@ -1,15 +1,22 @@
+
+
 #include "main.h"
 
 /**
- * main - check the code
+ * print_line - printing lines
+ * @n: number of times
  *
- * Return: Always 0.
+ * Return: void
  */
-int main(void)
+
+
+void print_line(int n)
 {
-	print_line(0);
-	print_line(2);
-	print_line(10);
-	print_line(-4);
-	return (0);
+	int i;
+
+	for (i = 0; i < n; i++)
+	{
+		_putchar('_');
+	}
+	_putchar('\n');
 }
