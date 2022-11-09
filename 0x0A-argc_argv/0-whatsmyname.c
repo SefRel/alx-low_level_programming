@@ -1,19 +1,16 @@
 #include <stdio.h>
 
-/*
- *  argc: argument count
- *  argv: argument Vector
+/**
+ * main - prints its name, followed by a new line.
+ * @argc: argument count
+ * @argv: arguments
  *
- *  A program that print its name using arguments vector and counts convention
- *
- *  return(0) 
-*/
-
-int main(int argc, char *argv[])
+ * Return: 0
+ */
+int main(int argc, char **argv)
 {
 	(void)argc;
 
 	printf("%s\n", argv[0]);
-
-	return(0);
+	return (0);
 }
