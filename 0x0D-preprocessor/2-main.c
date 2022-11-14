@@ -1,11 +1,14 @@
+
+
 #include <stdio.h>
+/**
+ *main - prints the name of the file
+ *
+ *Return: always 0
+*/
 
-/* main: print the name of the file it compiled 
- * Return: always return 0
- * */
-
-int main(void);
+int main(void)
 {
 	printf("%s\n", __FILE__);
-	return(0);
+	return (0);
 }
